@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Work+Sans:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(to left, blue,purple);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.container-preguntas{
+    display: flex;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 50px 60px;
+    height: auto;
+    min-height: 400px;
+    width: 100%;
+    max-width: 580px;
+    justify-content: space-around;  /*Quizás un space-between?*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.10);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    border: 2px solid rgba(209, 209, 209, 0.096);
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#pregunta{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#respuestas{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button{
+    background-color: rgba(187, 187, 187, 0.199);
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    font-size: 20px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: purple;
+    transform: scale(1.10);
+}
+button.correcto,button.correcto:hover{
+    background-color: rgba(43, 255, 0, 0.459);
+}
+button.incorrecto,button.incorrecto:hover{
+    background-color: rgba(255, 0, 0, 0.459);
+}
+
+#reiniciar{
+    display: none;
+}
+

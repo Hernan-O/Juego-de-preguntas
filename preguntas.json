@@ -1,0 +1,159 @@
+[
+    {
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "respuestas": [
+        "Mississippi",
+        "Nilo",
+        "Amazonas"
+        ],
+        "correcta": 2
+        },
+        {
+        "pregunta": "¿Cuál es el símbolo químico del agua?",
+        "respuestas": [
+        "CO2",
+        "O2",
+        "H2O"
+        ],
+        "correcta": 2
+        },
+        
+        {
+        "pregunta": "¿En qué continente se encuentra la Gran Muralla China?",
+        "respuestas": [
+        "Europa",
+        "Asia",
+        "África"
+        ],
+        "correcta": 1
+        },
+        
+        {
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "respuestas": [
+        "Saturno",
+        "Marte",
+        "Júpiter"
+        ],
+        "correcta": 2
+        },
+        
+        {
+        "pregunta": "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
+        "respuestas": [
+        "William Shakespeare",
+        "Miguel de Cervantes",
+        "Gabriel García Márquez"
+        ],
+        "correcta": 1
+        },
+        
+        {
+        "pregunta": "¿En qué año se fundó la ONU?",
+        "respuestas": [
+        "1945",
+        "1955",
+        "1935"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+        "respuestas": [
+        "Fémur",
+        "Húmero",
+        "Tibia"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "respuestas": [
+        "Pacífico",
+        "Atlántico",
+        "Índico"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Quién pintó la Mona Lisa?",
+        "respuestas": [
+        "Leonardo da Vinci",
+        "Vincent van Gogh",
+        "Pablo Picasso"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Cuál es la capital de Australia?",
+        "respuestas": [
+        "Canberra",
+        "Sídney",
+        "Melbourne"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Qué elemento químico tiene el símbolo 'O'?",
+        "respuestas": [
+        "Oxígeno",
+        "Oro",
+        "Plata"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+        "respuestas": [
+        "1939",
+        "1941",
+        "1945"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Cuál es el animal más grande del mundo?",
+        "respuestas": [
+        "Ballena azul",
+        "Elefante africano",
+        "Gorila"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Quién escribió la novela 'Cien años de soledad'?",
+        "respuestas": [
+        "Gabriel García Márquez",
+        "Pablo Neruda",
+        "Mario Vargas Llosa"
+        ],
+        "correcta": 0
+        },
+        
+        {
+        "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+        "respuestas": [
+        "Aluminio",
+        "Hierro",
+        "Cobre"
+        ],
+        "correcta": 0
+        },
+        {
+        "pregunta": "¿Quien es el mas fachero de la UTN frmdp?",
+        "respuestas": [
+        "Juan Cruz Moreno",
+        "Guillermo Gimenez",
+        "Martin Leonardi"
+        ],
+        "correcta": 0
+        }
+    ]

@@ -22,7 +22,7 @@ const preguntasImportadas = async()=>{
 
 //Mostrar pregunta y respuesta
 
-mostrarPregunta=()=>{
+function mostrarPregunta(){
     const{pregunta,respuestas} = preguntas[preguntaActual];
     preguntaElement.textContent = pregunta;
     //Generar botones de respuestas
@@ -37,7 +37,7 @@ mostrarPregunta=()=>{
     });  
 };
 
-revisarRespuesta = (indiceElegido) =>{
+function revisarRespuesta(indiceElegido){
     const isCorrect = indiceElegido === preguntas[preguntaActual].correcta;
     const botonSeleccionado = respuestaContainer.querySelector(`button:nth-child(${indiceElegido+1})`);
     botonSeleccionado.classList.add(isCorrect?"correcto":"incorrecto");
@@ -52,21 +52,33 @@ revisarRespuesta = (indiceElegido) =>{
             mostrarPregunta();
         }
         else{
-            respuestaContainer.innerHTML = `<p class='Fin'>Partida finalizada <br> Puntaje: ${puntaje} de 15 posibles</p>`;
-            preguntaElement.style.display="none";
+            mostrarPopup()
             reiniciarElement.style.display="block"; //vuelve el botoncito reiniciar :)
         }
         puntajeElement.textContent = `Puntaje: ${puntaje}`
     },500);
 };
 
-reiniciarJuego = () => {
+function reiniciarJuego(){
     preguntaActual = 0;
     puntaje = 0;
     preguntaElement.style.display = "block";
     reiniciar.style.display = "none";
     preguntasImportadas();
 };
+
+function mostrarPopup() {
+    const popup = document.getElementById("popup");
+    popup.style.display = "block";
+  
+    const puntajePopup = document.getElementById("puntaje-popup");
+    puntajePopup.textContent = `Puntaje: ${puntaje} de 15 posibles`;
+  }
+  
+  function cerrarPopup() {
+    const popup = document.getElementById("popup");
+    popup.style.display = "none";
+  }
 
 reiniciarElement.addEventListener("click",reiniciarJuego);
 preguntasImportadas();

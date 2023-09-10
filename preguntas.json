@@ -146,5 +146,14 @@
         "Cobre"
         ],
         "correcta": 0
+        },
+        {
+        "pregunta": "¿Quien es el mas fachero de la UTN frmdp?",
+        "respuestas": [
+        "Juan Cruz Moreno",
+        "Guillermo Gimenez",
+        "Martin Leonardi"
+        ],
+        "correcta": 0
         }
     ]
